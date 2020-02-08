@@ -6,7 +6,7 @@ What is Apache Kafka?
 
 	Apache Kafka is an open-source stream-processing software platform developed by LinkedIn and donated to the Apache Software Foundation, written in Scala and Java. Kafka critically depends on Apache ZooKeeper to share information via a Zookeeper cluster. Kafka stores basic metadata in Zookeeper. Apache Kafka is publish-subscribe based fault tolerant messaging system. For more https://kafka.apache.org/intro.html.
 
-	There are two ways of configuration of Kafka. Single Node-Single Broker Configuration.
+	There are two ways of configuration of Kafka.
 
 	1. Single Node-Single Broker Configuration. It means single ZooKeeper instance and single Kafka broker instance.
 
