@@ -181,11 +181,18 @@ What is Apache Kafka?
 
 ## Kafka Java Client Program for Producer & Consumer
 
+
+### Maven initial setup
+
+	$ mvn dependency:tree
+	$ mvn eclipse:eclipse
+	
+
 ### 1. Run following java program to produce message/data to topic:My_1st_Replicated_Kafka_Topic
 
 	KafkaProducerClient.java
 	
+	
 ### 2. Run following java program to consume message/data from topic:My_1st_Replicated_Kafka_Topic
 
 	KafkaConsumerClient.java
-
